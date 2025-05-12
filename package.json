@@ -1,7 +1,7 @@
 {
   "name": "backbone-trace",
   "version": "0.1.0",
-  "description": "Backtrace: A lightweight toolkit for backend observability, resilience, and logging.",
+  "description": "Backbone Trace: The essential toolkit for backend observability, resilience, and logging.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuusuario/backtrace-kit.git"
+    "url": "git+https://github.com/gabriel70g/backbone-trace.git"
   },
   "keywords": [
     "axios",
@@ -22,19 +22,23 @@
     "observability",
     "backend",
     "nodejs",
-    "typescript"
+    "typescript",
+    "infrastructure"
   ],
   "author": "Gabriel",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.0",
-    "ioredis": "^5.4.0",
-    "uuid": "^9.0.0"
+    "axios": "^1.9.0",
+    "axios-retry": "^4.5.0",
+    "ioredis": "^5.6.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.3.0",
-    "eslint": "^8.57.0",
     "@types/node": "^20.11.0",
-    "@types/uuid": "^9.0.7"
+    "@types/uuid": "^9.0.7",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.0"
   }
 }
